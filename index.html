@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bookspacehotels.com</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookSpaceHotels.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gradient-to-br from-indigo-900 via-purple-900 to-gray-900 min-h-screen flex items-center justify-center text-white">
+    <div class="bg-black bg-opacity-40 backdrop-blur-sm p-8 rounded-2xl shadow-2xl max-w-lg w-full text-center">
+      <h1 class="text-4xl font-bold mb-4 animate-fade-in">BookSpaceHotels.com</h1>
+      <p class="text-lg mb-4">This premium domain is available for sale. Perfect for futuristic hotel booking or space tourism startups.</p>
+      <p class="text-sm mb-6">Contact us directly: <span class="font-mono">bookspacehotels@proton.me</span></p>
+      <a href="mailto:bookspacehotels@proton.me">
+        <button class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 px-4 rounded-xl transition duration-300">
+          📧 Contact to Buy
+        </button>
+      </a>
+    </div>
 
     <style>
-        .book{
-            display: flex;
-            justify-content: center;
-            font-size: 50px;
-            font-weight: bold;
-        }
+      @keyframes fade-in {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.8s ease-out forwards;
+      }
     </style>
-</head>
-<body>
-    <div class="book">bookspacehotels.com</div>
-
-    <div class="book">is available for sale</div>
-    <br>
-    <br>
-    <div class="book"> Contact: bookspacehotels@proton.me</div>
-    
-</body>
+  </body>
 </html>
